@@ -4,7 +4,7 @@ Polega na grupowym opracowaniu krótkiego opisu kluczowych komend Gita.
 
 Wymagania:
  * opracowanie ma mieć formę jednoplikowej strony HTML
- * wszystkie komendy z poniższej listy muszą zostać opisane (co robią i do czego mogą być przydatne + przykład użycia)
+ * należy opisać wszystkie komendy z poniższej listy (co robią i do czego mogą być przydatne + przykład użycia)
  * całość powinna być poprawna pod kątem językowym
  
 Sposób pracy:
@@ -19,9 +19,9 @@ Zadanie zaliczą te osoby, które łącznie:
  * Pull Request zostanie zatwierdzony i zmergowany do głównego repozytorium
 
 Harmonogram:
- * Pull request należy zrobić do 09.11.2022
+ * Pull request należy zrobić do 22.11.2022
  * po zgłoszeniu należy dbać o swojego pull requesta, w szczególności mergować z aktualnym stanem repozytorium, gdyż tylko wtedy PR może zostać zaakceptowany
- * ostateczny termin zatwierdzenia PR to koniec listopada
+ * ostateczny termin zatwierdzenia PR to koniec 20 grudnia
  
  
  Lista komend do opisania:
