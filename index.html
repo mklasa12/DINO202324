@@ -1,12 +1,22 @@
 <html>
+  <head>
+    <title>Opis komend Git</title>
+  </head>
   <body>
-    <h3>git push "remote" "branch"<h3>
-    <h4>Argumenty:</h4>
-    <p>"remote": wskazuje na repozytorium na którym ma zadziałać komenda <br>
-       "branch": wskazuje na jakim branchu mamy operować</p>
-    <h4>Opis:</h4>
-    <p>Komenda ta publikuje zawartość (brancha) repozytorium lokalnego na zdalnym, <br>
-    jeśli publikacja zmian nie będzie możliwa w sposób domyślny (fast-forward),
-    to wykonanie zostanie przerwane.<br></p>
+    <div>
+    <code>git push "remote" "branch"</code>
+        <p>"remote": wskazuje na repozytorium na którym ma zadziałać komenda <br>
+           "branch": wskazuje na jakim branchu mamy operować</p>
+        <p>Komenda ta publikuje zawartość (brancha) repozytorium lokalnego na zdalnym, <br>
+        jeśli publikacja zmian nie będzie możliwa w sposób domyślny (fast-forward),<br>
+        to wykonanie zostanie przerwane.</p>
+    </div>
+
+    <div>
+      <code>git add .</code>
+      Komenda <code>git add</code> służy do stageowania zmian. 
+      Zwykle po add podaje się listę plików które chcemy stageować. 
+      Ale można też zamiast listy plików użyć kropki aby stageować wszystkie pliki w repozytorium, które mają zmiany oraz nie są ignorowane.
+    </div>
   </body>
 </html>
