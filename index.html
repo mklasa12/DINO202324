@@ -3,12 +3,22 @@
     <title>Opis komend Git</title>
   </head>
   <body>
-    Zmiana Zmiana Zmiana
+    <div>
+      <code>
+        git checkout -b "branch"
+      </code>
+      Komenda git checkout -b "branch" umożliwia stworzenie nowej gałęzi (brancha).
+      Bezpośrednio po wykonaniu komendy następuje przełączenie na nową gałąź, na której można zacząć pracę.
+      Komenda git checkout -b "branch" jest równoważna dwóm komendom, następującym po sobie: git branch "branch" (tworzy nowy branch), git checkout "branch" (przechodzi na zadany branch).
+    </div>
     <div>
       <code>git add .</code>
       Komenda <code>git add</code> służy do stageowania zmian. 
       Zwykle po add podaje się listę plików które chcemy stageować. 
-      Ale można też zamiast listy plików użyć kropki aby stageować wszystkie pliki w repozytorium, które mają zmiany oraz nie są ignorowane.
+      Ale można też zamiast listy plików użyć kropki aby dodać do następnego commita wszystkie pliki w repozytorium, które mają zmiany oraz nie są ignorowane.
+    </div>
+    <div>
+      Tu opisz kolejną komendę ....
     </div>
     <div>
       <code>git commit -a -m ""</code>
