@@ -3,7 +3,6 @@
     <title>Opis komend Git</title>
   </head>
   <body>
-    <div>
       <code>
         git checkout -b "branch"
       </code>
@@ -16,6 +15,14 @@
       Komenda <code>git add</code> służy do stageowania zmian. 
       Zwykle po add podaje się listę plików które chcemy stageować. 
       Ale można też zamiast listy plików użyć kropki aby dodać do następnego commita wszystkie pliki w repozytorium, które mają zmiany oraz nie są ignorowane.
+    </div>
+    <div>
+    <code>git push "remote" "branch"</code>
+        <p>"remote": wskazuje na repozytorium na którym ma zadziałać komenda <br>
+           "branch": wskazuje na jakim branchu mamy operować</p>
+        <p>Komenda ta publikuje zawartość (brancha) repozytorium lokalnego na zdalnym, <br>
+        jeśli publikacja zmian nie będzie możliwa w sposób domyślny (fast-forward),<br>
+        to wykonanie zostanie przerwane.</p>
     </div>
     <div>
       Tu opisz kolejną komendę ....
